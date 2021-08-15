@@ -1,5 +1,5 @@
 
-# Prerequisites :ghost:
+# Prerequisites :robot:
 Before instlling Hyperledger binaries you have to install all the prerequisites below on the platform where you will be running Hyperledger Fabric.
 
 ## Install git
