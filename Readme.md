@@ -3,7 +3,7 @@
 Before instlling Hyperledger binaries you have to install all the prerequisites below on the platform where you will be running Hyperledger Fabric.
 
 ## Install git
-run the following :
+Run the following :
 ````
 sudo apt update && sudo apt upgrade
 sudo apt-get install git
@@ -47,7 +47,7 @@ Optional: If you want the docker daemon to start when the system starts, use the
 ```sudo systemctl enable docker```
 
 ## Install Docker Compose 🐳
-
+Run the following :
 ````
 sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
 ````
