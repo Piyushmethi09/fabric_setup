@@ -12,7 +12,7 @@ sudo apt-get install git
 run the following :
 ````sudo apt install curl````
 
-## Install Docker
+## Install Docker 🐳
 Run in succession the following commands :
 ````
 sudo apt update
@@ -46,7 +46,7 @@ Make sure the docker daemon is running.
 Optional: If you want the docker daemon to start when the system starts, use the following:
 ```sudo systemctl enable docker```
 
-## Install Docker Compose
+## Install Docker Compose 🐳
 
 ````
 sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
