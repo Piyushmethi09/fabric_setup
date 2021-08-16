@@ -110,3 +110,15 @@ docker images
 # check the bin cmd
 peer version
 ````
+## start the network
+copy both \*.sh files from this repositoy into the test-network folder then run 
+````
+mkdir fabric
+cd fabric
+````
+## Stop network
+Bring down the network
+
+````
+./network.sh down
+````
