@@ -65,21 +65,6 @@ Output
 docker-compose version 1.21.2, build a133471
 ````
 
-## Install NodeJs
-
-````
-# add PPA from NodeSource
-curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
-
-# call the install script
-. nodesource_setup.sh
-
-# install node.js
-apt-get install -y nodejs
-
-# check the version
-node -v
-````
 ALL set 👍 👍
 
  # Install Hyperledger Fabric 🥶
@@ -121,4 +106,22 @@ Bring down the network
 
 ````
 ./network.sh down
+````
+
+# Smart contract Prequisities
+
+## Install NodeJs
+
+````
+# add PPA from NodeSource
+curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh
+
+# call the install script
+. nodesource_setup.sh
+
+# install node.js
+apt-get install -y nodejs
+
+# check the version
+node -v
 ````
