@@ -77,17 +77,21 @@ mkdir fabric
 cd fabric
 ````
 Then run the following commands 
+
+Install the 2.2 release by running 
 ````
-# install the latest production release from the 1.4.x branch
-# curl -sSL http://bit.ly/2ysbOFE | bash -s -- <fabric_version> <fabric-ca_version> <thirdparty_version>
-
-# curl -sSL http://bit.ly/2ysbOFE | bash -s -- 1.4.6 1.4.6 0.4.18
-
-# latest production ready release, omit all version identifiers
-# curl -sSL https://bit.ly/2ysbOFE | bash -s
-
-# we use 2.2 in our examples
 curl -sSL https://bit.ly/2ysbOFE | bash -s -- 2.2.1 1.4.9
+````
+such that 
+````
+# curl -sSL http://bit.ly/2ysbOFE | bash -s -- <fabric_version> <fabric-ca_version> <thirdparty_version>
+````
+
+Extra options (Skip this part if you are fine with 2.2)
+````
+To install the latest production ready release, omit all version identifiers
+ curl -sSL https://bit.ly/2ysbOFE | bash -s
+````
 
 # check downloaded images
 docker images
