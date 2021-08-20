@@ -112,6 +112,7 @@ Change directory to ``fabric-samples/test-network/`` and copy both ``\*.sh`` fil
 ````
 chmod +x start.sh
 chmod +x configureHyperledger.sh
+chmod +x monitordocker.sh
 ````
 In order to bring up the Fabric network run 
 ````
