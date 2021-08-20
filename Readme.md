@@ -108,7 +108,7 @@ Bring down the network
 ````
 
 # Smart contract Prequisities
-
+To start writing chaincodes in js, you'll need to install NodeJs and VisualCode
 ## Install NodeJs
 
 ````
