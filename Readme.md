@@ -102,11 +102,11 @@ To install the latest production ready release, omit all version identifiers
 ````
 docker images
 ````
-### check the bin cmd
+### check installation
 ````
 peer version
 ````
-## start the network
+# start the network
 Change directory to ``fabric-samples/test-network/`` and copy both ``\*.sh`` files from this repositoy then run 
 
 ````
@@ -126,7 +126,7 @@ to bring down the Fabric network
 ## Monitor the network
 to monitor the network run the folowing script with the network name as argument
 ````
-./monitordocker.sh fabric_test
+./monitordocker.sh net_test
 ````
 To find the actual network name use 
 ````
