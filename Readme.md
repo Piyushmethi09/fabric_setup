@@ -43,9 +43,13 @@ sammy sudo docker
 
 ### Check
 Make sure the docker daemon is running.
-```sudo systemctl start docker```
+```
+sudo systemctl start docker`
+````
 Optional: If you want the docker daemon to start when the system starts, use the following:
-```sudo systemctl enable docker```
+```
+sudo systemctl enable docker
+```
 
 ## Install Docker Compose 🐳
 Run the following :
@@ -94,10 +98,12 @@ To install the latest production ready release, omit all version identifiers
  curl -sSL https://bit.ly/2ysbOFE | bash -s
 ````
 
-# check downloaded images
+### check downloaded images
+````
 docker images
-
-# check the bin cmd
+````
+### check the bin cmd
+````
 peer version
 ````
 ## start the network
