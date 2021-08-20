@@ -107,7 +107,7 @@ docker images
 peer version
 ````
 ## start the network
-copy both \*.sh files from this repositoy into the ``\test-network`` folder then run 
+Change directory to ``fabric-samples/test-network/`` and copy both ``\*.sh`` files from this repositoy then run 
 
 ````
 chmod +x start.sh
