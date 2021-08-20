@@ -159,4 +159,5 @@ node -v
 
 ## install IBM Blockchain Platform Extension for VS Code
 Follow the steps described in https://marketplace.visualstudio.com/items?itemName=IBMBlockchain.ibm-blockchain-platform
+For advanced configuration you can read the official documentation available at https://github.com/IBM-Blockchain/blockchain-vscode-extension/wiki
 
