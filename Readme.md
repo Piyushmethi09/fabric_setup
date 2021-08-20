@@ -156,3 +156,7 @@ apt-get install -y nodejs
 # check the version
 node -v
 ````
+
+## install IBM Blockchain Platform Extension for VS Code
+Follow the steps described in https://marketplace.visualstudio.com/items?itemName=IBMBlockchain.ibm-blockchain-platform
+
