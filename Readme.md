@@ -128,6 +128,16 @@ to monitor the network run the folowing script with the network name as argument
 ````
 ./monitordocker.sh fabric_test
 ````
+To find the actual network name use 
+````
+docker  inspect 5500c077b027 -f "{{json .NetworkSettings.Networks }}"
+````
+it will output someting like 
+````
+{"net_test":{"IPAMConfig":null,"Links":null,"Aliases":["peer0.org2.example.com","5500c077b027"],"NetworkID":"23314d03ee66740d8881038d8f634e4dc03d8772a40b7f4016a1c0e767ce023e","EndpointID":"52664760132cf39acdce176373f9d18100097d18ec4b2033e0ecded2adc62cc8","Gateway":"172.20.0.1","IPAddress":"172.20.0.9","IPPrefixLen":16,"IPv6Gateway":"","GlobalIPv6Address":"","GlobalIPv6PrefixLen":0,"MacAddress":"02:42:ac:14:00:09","DriverOpts":null}}
+````
+where the first element is the network name ``net_test``
+
 # Smart contract Prequisities
 To start writing chaincodes in js, you'll need to install NodeJs and VisualCode
 ## Install NodeJs
