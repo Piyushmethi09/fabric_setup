@@ -123,7 +123,11 @@ to bring down the Fabric network
 ````
 ./network.sh down
 ````
-
+## Monitor the network
+to monitor the network run the folowing script with the network name as argument
+````
+./monitordocker.sh fabric_test
+````
 # Smart contract Prequisities
 To start writing chaincodes in js, you'll need to install NodeJs and VisualCode
 ## Install NodeJs
