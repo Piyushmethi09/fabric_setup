@@ -7,6 +7,7 @@ Run the following :
 ````
 sudo apt update && sudo apt upgrade
 sudo apt-get install git
+git clone https://github.com/bellaj/fabric_setup.git && cd fabric_setup
 `````
 ## Install curl
 run the following :
