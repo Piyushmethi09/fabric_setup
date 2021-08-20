@@ -102,11 +102,17 @@ peer version
 ````
 ## start the network
 copy both \*.sh files from this repositoy into the test-network folder then run 
+
+````
+chmod +x start.sh
+chmod +x configureHyperledger.sh
+````
+In order to bring up the Fabric network run 
 ````
 ./start.sh
 ````
 ## Stop network
-Bring down the network
+to bring down the Fabric network
 
 ````
 ./network.sh down
