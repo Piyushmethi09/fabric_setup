@@ -141,7 +141,7 @@ where the first element is the network name ``net_test``
 
 # Smart contract Prequisities
 To start writing chaincodes in js, you'll need to install NodeJs and VisualCode
-## Install NodeJs
+## Install NodeJs and Npm
 
 ````
 # add PPA from NodeSource
@@ -156,6 +156,8 @@ apt-get install -y nodejs
 # check the version
 node -v
 ````
+install npm using 
+````sudo apt install npm````
 
 ## install IBM Blockchain Platform Extension for VS Code
 Follow the steps described in https://marketplace.visualstudio.com/items?itemName=IBMBlockchain.ibm-blockchain-platform
