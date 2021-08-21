@@ -23,7 +23,7 @@
 
     },
     {
-        "name": "ca_org1",
+        "name": "ca.org1.example.com",
         "api_url": "https://localhost:7054",
         "type": "fabric-ca",
         "ca_name": "ca-org1",
@@ -31,7 +31,7 @@
         "enroll_secret": "adminpw"
     },
     {
-        "name": "ca_org2",
+        "name": "ca.org2.example.com",
         "api_url": "https://localhost:8054",
         "type": "fabric-ca",
         "ca_name": "ca-org2",
