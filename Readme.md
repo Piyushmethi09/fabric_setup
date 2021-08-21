@@ -118,6 +118,12 @@ In order to bring up the Fabric network run
 ````
 ./start.sh
 ````
+You can list the docker containers that are running the basic-network components using the ````docker ps```` command
+These containers all form a docker network called ````net_basic````. You can view the network with the docker network command:
+````
+docker network inspect net_basic
+````
+
 ## Stop network
 to bring down the Fabric network
 
