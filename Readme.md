@@ -145,6 +145,10 @@ it will output someting like
 ````
 where the first element is the network name ``net_test``
 
+Note that you can pass a port number to the above command if the default port in monitordocker.sh is already in use.
+
+```` ./monitordocker.sh net_basic <port_number>````
+
 # Smart contract Prequisities
 To start writing chaincodes in js, you'll need to install NodeJs and VisualCode
 ## Install NodeJs and Npm
