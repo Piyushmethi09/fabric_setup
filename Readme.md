@@ -173,3 +173,5 @@ install npm using
 Follow the steps described in https://marketplace.visualstudio.com/items?itemName=IBMBlockchain.ibm-blockchain-platform
 For advanced configuration you can read the official documentation available at https://github.com/IBM-Blockchain/blockchain-vscode-extension/wiki
 
+## Load Futon (couchDB)
+visit ````http://127.0.0.1:5984/_utils````
