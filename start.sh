@@ -11,5 +11,5 @@ echo "===============================Create channel with CA and CouchDb ========
 #echo "#"
 #echo "# Starting CC deployment"
 #echo "========================================================"
-#./network.sh deployCC -ccn cpuTokenChainC3 -ccp ../../tangerMed/cpuChainCode -ccv 1 -ccl javascript 
+./network.sh deployCC -ccn cpuTokenChainC3 -ccp ../../tangerMed/chaincode -ccv 1 -ccl javascript 
 
