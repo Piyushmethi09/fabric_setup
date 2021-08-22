@@ -175,3 +175,5 @@ For advanced configuration you can read the official documentation available at 
 
 ## Load Futon (couchDB)
 visit ````http://127.0.0.1:5984/_utils````
+- Login: admin
+- passwrd: adminpw
