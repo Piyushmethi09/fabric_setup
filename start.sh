@@ -3,6 +3,7 @@
 #docker kill $(docker ps -q) # added for deploying cc
 echo "===============================setting UP fabric variables and using peer 0 ============="
 source ./configureHyperledger.sh
+echo $FABRIC_CFG_PATH
 echo "=============================== Stopping previous instances ============================="
 ./network.sh down
 echo "===============================Create default channel with CAs and CouchDb==============="
