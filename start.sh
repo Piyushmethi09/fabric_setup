@@ -1,11 +1,11 @@
-#!/bin/sh
+#!/bin/bash
 #docker network disconnect -f fabric_test logspout
 #docker kill $(docker ps -q) # added for deploying cc
 echo "===============================setting UP fabric variables and using peer 0 ============="
 source ./configureHyperledger.sh
 echo "=============================== Stopping previous instances ============================="
 ./network.sh down
-echo "===============================Create channel with CA and CouchDb ======================="
+echo "===============================Create default channel with CAs and CouchDb==============="
 ./network.sh up createChannel -ca -s couchdb
 #echo "=====================Deploying CC======================="
 #echo "#"
