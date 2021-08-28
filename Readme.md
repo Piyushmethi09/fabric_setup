@@ -177,3 +177,13 @@ For advanced configuration you can read the official documentation available at 
 visit ````http://127.0.0.1:5984/_utils````
 - Login: admin
 - passwrd: adminpw
+
+## Deploy chaincode
+To deploy and install the chaincode into the running peers run :
+
+````
+./network.sh deployCC -ccn chaincodename -ccp ../../chaincode_Path -ccv 1 -ccl javascript 
+````
+such that :
+- chaincode_Path is the chaincode folder path
+- chaincodename is the chaincode name 
