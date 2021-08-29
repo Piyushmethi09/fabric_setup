@@ -172,7 +172,8 @@ install npm using
 ## install IBM Blockchain Platform Extension for VS Code
 Follow the steps described in https://marketplace.visualstudio.com/items?itemName=IBMBlockchain.ibm-blockchain-platform
 For advanced configuration you can read the official documentation available at https://github.com/IBM-Blockchain/blockchain-vscode-extension/wiki
-
+## install Postman
+````sudo snap install postman````
 ## Load Futon (couchDB)
 visit ````http://127.0.0.1:5984/_utils````
 - Login: admin
