@@ -1,4 +1,5 @@
 #!/bin/sh
+export COMPOSE_PROJECT_NAME=net
 export FABRIC_CFG_PATH=${PWD}/../config/
 export CORE_PEER_TLS_ENABLED=true
 export CORE_PEER_LOCALMSPID="Org1MSP"
