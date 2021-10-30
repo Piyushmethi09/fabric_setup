@@ -37,8 +37,10 @@ You will be prompted to enter your user’s password to continue.
 Confirm that your user is now added to the docker group by typing:
 ````
 id -nG
-Output
-sammy sudo docker
+````
+Output (example )
+````
+userX sudo docker
 ````
 
 ### Check
