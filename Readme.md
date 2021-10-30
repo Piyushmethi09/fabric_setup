@@ -106,7 +106,7 @@ docker images
 ````
 ### check installation
 ````
-peer version
+ fabric-samples/bin/peer version
 ````
 # start the network
 Change directory to ``fabric-samples/test-network/`` and copy both ``\*.sh`` files from this repositoy then run 
