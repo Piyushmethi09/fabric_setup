@@ -22,5 +22,5 @@ echo "=============================== Stopping previous instances ==============
 echo "===============================Create default channel(mychannel) with CAs and CouchDb==============="
 ./network.sh up createChannel -ca -s couchdb
 #echo "===============================Deploying CC========================================================"
-#./network.sh deployCC -ccn chaincodename -ccp ../../chaincode/Path -ccv 1 -ccl javascript 
+#./network.sh deployCC -ccn TractionChaincode -ccp ../../TractionChaincode -ccv 1 -ccl javascript 
 
