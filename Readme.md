@@ -46,7 +46,7 @@ userX sudo docker
 ### Check
 Make sure the docker daemon is running.
 ```
-sudo systemctl start docker`
+sudo systemctl start docker
 ````
 Optional: If you want the docker daemon to start when the system starts, use the following:
 ```
